@@ -1,0 +1,9 @@
+Rails 3.2.15 stub project for reproducing valid_attribute error
+Error receiving is:
+ 1) Error:
+test_0001_anonymous(validations):
+NoMethodError: undefined method `have_valid' for #<#<Class:0xac16b5>:0xc40f9>
+    /home/tom/projects/vatest//test/models/person_test.rb:11:in `test_0001_anonymous'
+
+To be removed once issue is resolved in https://github.com/bcardarella/valid_attribute
+
